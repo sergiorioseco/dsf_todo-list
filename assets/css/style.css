@@ -1,0 +1,58 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  background-color: #ccfbfe;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px;
+  padding: 10px;
+  background-color: #F4D06F;
+}
+.cheked {
+  text-decoration: line-through;
+  color: #cd8987;
+}
+
+.section {
+  display: flex;
+  gap: 20px;
+}
+
+.contadores {
+  font-weight: bold;
+}
+
+.tareas {
+  display: flex;
+  flex-direction: column;
+}
+.tarea {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.tareaid {
+  padding-right: 30px;
+}
+.headers {
+  display: flex;
+  padding-left: 40px;
+  gap: 50px;
+  font-weight: bold;
+}
+
+h1 {
+  border-bottom: solid 1px;
+}
+
+ul {
+  margin-top: 0;
+}

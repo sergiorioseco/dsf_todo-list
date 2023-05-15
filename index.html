@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main-section">
+      <h1>Todo List</h1>
+      <div class="agregar">
+        <input type="text" id="nuevaTarea" placeholder="Nueva tarea" />
+        <button type="button" id="btnAdd">Agregar</button>
+      </div>
+      <div class="section">
+        <div class="contadores">
+          <p>Realizadas: <span id="realizadas">0</span></p>
+          <p>Total: <span id="total"></span></p>
+        </div>
+        <div class="tareas">
+          <div class="headers">
+            <p>ID</p>
+            <p>Tareas</p>
+          </div>
+          <ul>
+            <div id="todoList"></div>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
